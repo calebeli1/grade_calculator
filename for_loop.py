@@ -12,9 +12,9 @@ import random
 
 student_list = ["Kristel", "Maya", "Dice", "Precious", "Abena", "Sam", "Peter", "Gracious", "Ernest", "Daniella"]
 
-#print("\n\nThe index position of the students in the class is:")
-#for i in enumerate(student_list, start=1):
-    #print(i)
+print("\n\nThe index position of the students in the class is:")
+for i in enumerate(student_list, start=1):
+    print(i)
 
 #for i in range(len(student_list,)):
     #print(i)
@@ -39,6 +39,8 @@ print(student_list)
 random.shuffle(student_list)
 print(student_list)
 
+#Return a reversed list of students
+print(student_list[3:8][::-1])
 
 
 
